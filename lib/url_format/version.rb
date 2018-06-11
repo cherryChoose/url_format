@@ -1,3 +1,3 @@
 module UrlFormat
-  VERSION = "0.1.0.alpha"
+  VERSION = "0.0.1"
 end
