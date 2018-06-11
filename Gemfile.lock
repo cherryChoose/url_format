@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    url_format (0.1.0.alpha)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (3.0.20)
+      activesupport (= 3.0.20)
+      builder (~> 2.1.2)
+      i18n (~> 0.5.0)
+    activesupport (3.0.20)
+    builder (2.1.2)
+    i18n (0.5.4)
+    rake (10.5.0)
+    supermodel (0.1.6)
+      activemodel (~> 3.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  rake (~> 10.0)
+  supermodel
+  url_format!
+
+BUNDLED WITH
+   1.16.1
