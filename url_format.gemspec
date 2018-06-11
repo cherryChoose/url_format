@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{format url reg}
   spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "https://github.com/cherryChoose/utl_format"
+  spec.homepage      = "https://github.com/cherryChoose/url_format"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -31,7 +31,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "rspec"
-  spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   # Simple in-memory database using ActiveModel.
   spec.add_development_dependency "supermodel"
